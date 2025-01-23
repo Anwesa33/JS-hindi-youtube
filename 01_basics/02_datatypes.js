@@ -20,3 +20,17 @@ let isLoggedIn = false // boolean datatype true/false
 console.log(typeof null); // object
 console.log(typeof undefined); //undefined
 
+// two types of dataypes : primitive and non-primitive/reference
+
+// primitive - 7 types - String, Number, Boolean, Null, Undefined, Symbol, Bigint
+// non-primitive - 3 types - Arrays, Objects, Functions
+
+// Symbol datatype
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId); //answer is false, symbol changes the value to be unsimilar to any other value;
+
+
+
